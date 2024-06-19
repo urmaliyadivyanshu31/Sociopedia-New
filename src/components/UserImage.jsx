@@ -1,5 +1,7 @@
 import { Box } from "@mui/material";
 
+import React from "react";
+
 const UserImage = ({ image, size = "60px" }) => {
   return (
     <Box width={size} height={size}>
@@ -8,7 +10,7 @@ const UserImage = ({ image, size = "60px" }) => {
         width={size}
         height={size}
         alt="user"
-        src={`https://social-media-stackbackend.onrender.com/assets/${image}`}
+        src={`https://img.collegepravesh.com/2022/04/UIT-RGPV-Bhopal.jpg`}
       />
     </Box>
   );
